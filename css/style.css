@@ -1,0 +1,211 @@
+
+    /* Header__colore */
+.intro {
+position: absolute;
+width: 100%;
+min-width: 900px;
+height: 300px;
+top:0px;
+
+background: rgba(241, 27, 13, 0.89);
+mix-blend-mode: normal;
+box-shadow: inset 0px 5px 250px rgba(5, 32, 129, 0.8);
+} 
+
+h1 {
+    position: absolute;
+    bottom: calc( 0% - 172px/2 ) ;
+    padding-left: 54px;
+    font-family: 'Risque',  cursive;
+    text-align: center;
+    font-size: 96px;
+    font-weight: normal;
+    font-style: normal;
+    padding-right: 100px;
+    line-height: 111px;
+    color:black;
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: white;
+}
+
+.contain {
+    position: absolute;
+    left: calc( 50% - 810px/2 );
+    top: calc( 50% - 172px/2 );
+    width: 810px;
+    height: 172px;
+}
+
+.posimg {
+    position: absolute;
+    top:0;
+
+}
+.contain2{
+    position: absolute;
+    width: 599px;
+    height: 172px;
+    left: 211px;
+}
+
+/* nav */
+nav {
+    position: absolute;
+    width: 100%;
+    min-width: 900px;       
+    height: 50px;       
+    left: 0px;
+    top: 300px;
+    box-shadow: 0px 0.02px 4px black;
+    background: #FFFFFF;
+}
+.full__nav {
+    position: relative;
+    min-width: 900px;
+    display: flexbox;
+    font-family: 'Risque';
+    font-size: 30px;
+}
+.lightning1 {
+    position :absolute;
+    bottom:15px;
+    left:30px
+}
+.lightning2 {
+    position :absolute;
+    bottom:15px;
+    left:210px
+}
+.lightning3 {
+    position :absolute;
+    bottom:15px;
+    left:450px
+    
+}
+
+.child1 {
+    position: relative;
+    left:20px;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration-line: none;
+    margin: 10px 20px;
+    color: black;
+
+    transition:color 0.2s linear ;
+}
+
+.child2 {
+    position: relative;
+    right:20px;
+    float: right;
+    display: block;
+    text-decoration-line: none;
+    margin: 10px 20px;
+    color: black;
+
+    transition:color 0.2s linear ;
+}
+.child1:hover {
+    color: gold;
+    -webkit-text-stroke: 1px black
+}
+.child2:hover {
+    color: gold;
+    -webkit-text-stroke: 1px black
+}
+/*Body*/
+body { 
+    position: absolute;
+    width: 100%;
+    min-width: 900px;
+    margin: 0; 
+    height: 1000px;
+    background: #FFFFFF;
+
+}
+.home {
+    position: absolute;
+    top:350px;
+    width: 100%;
+    min-width: 900px;
+    
+}
+
+
+
+
+.serstr {
+    position: absolute;
+    left: calc( 50% - 731px/2 );
+    top: 150px;
+    width: 731px;
+    height: 200px;
+    display: flexbox;
+}
+p {
+    position: relative;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+   margin: auto;
+    
+    font-family: 'Risque';
+    font-size:64px;
+}
+
+.wordstr {
+    position: inherit;
+    width: 650px;
+    height: 73px;
+
+    border-color: black;
+    border-width: 3px;
+    border-radius: 30px 0px 0px 30px;
+    outline:none;
+
+    font-family: 'Risque';
+    font-size:36px;
+    -webkit-text-fill-color: rgb(0, 64, 160);
+    text-align: center;
+    background: #FFFFFF ;
+    mix-blend-mode: normal;
+
+    transition:color 0.2s linear ;
+}
+
+
+.input__word:hover {
+    background-color: rgb(248, 247, 244);
+} 
+
+.btn{
+    position: relative;
+    width: 81px;
+    height:81px;
+    left: 650px;
+    
+
+    border:3px solid black;
+    border-radius: 0px 30px 30px 0px;
+    outline: none;
+
+    font-weight: 700;
+    font-family: 'Risque';
+    font-size: 48px;
+    background-color:#FFFFFF;
+}
+
+.btn:hover {
+    border-width: 3px;
+    border-radius: 0px 30px 30px 0px;
+    font-weight: 400;
+    font-family: 'Risque';
+    font-size: 48px;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 5px black;
+    background-color:white;
+}
+
+
+
