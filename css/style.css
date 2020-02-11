@@ -124,11 +124,12 @@ body {
     background: #FFFFFF;
 
 }
-.home {
+.add {
     position: absolute;
     top:350px;
     width: 100%;
     min-width: 900px;
+    display: none;
     
 }
 
@@ -158,6 +159,7 @@ p {
     position: inherit;
     width: 650px;
     height: 73px;
+    
 
     border-color: black;
     border-width: 3px;
@@ -184,6 +186,7 @@ p {
     width: 81px;
     height:81px;
     left: 650px;
+    
     
 
     border:3px solid black;
